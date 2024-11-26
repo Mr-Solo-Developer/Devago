@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVAGO</title>
+    <meta name="description" content="DVAGO">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Assets/Devago icon/favicon.png">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-div1">
+                <img class="nav-img" src="./Assets/svg/Devago.svg" alt="Devago" width="120px" height="48px" srcset="">
+                <div class="obito">
+                    <div>
+                        <img class="gojo" src="./Assets/svg/menu.svg" alt="Devago" width="23px" height="15px" srcset="">
+                    </div>
+                    <div>
+                        <img class="saturo" src="./Assets/svg/V.svg" alt="Devago" width="32px" height="35px" srcset="">
+                    </div>
+                    <div>
+                        <p>Delivers in
+                            <span>60 Mins</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="royalty">
+                    <input type="text" class="search-input" placeholder="Search for Medicines & more..." value="">
+                </div>
+                <a class="yare" href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                </a>
+                <button class="nav-btn0">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="19" width="13" viewBox="0 0 384 512">
+                        <path fill="#5e971a"
+                            d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                    </svg>
+
+                    <p>No address Selected</p>
+                    <p>No address Sele..</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5" viewBox="0 0 320 512">
+                        <path fill="#5e971a"
+                            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                    </svg>
+                </button>
+
+                <button class="nav-btn">
+                    <svg viewBox="0 0 1024 1024" class="nav-btn1-svg" fill="#ffffff" aria-hidden="false"
+                        focusable="false">
+                        <path
+                            d="M128 202.666667A74.666667 74.666667 0 0 1 202.666667 128h149.333333A74.666667 74.666667 0 0 1 426.666667 202.666667v149.333333a74.666667 74.666667 0 0 1-74.666667 74.666667h-149.333333A74.666667 74.666667 0 0 1 128 352v-149.333333zM202.666667 192a10.666667 10.666667 0 0 0-10.666667 10.666667v149.333333a10.666667 10.666667 0 0 0 10.666667 10.666667h149.333333a10.666667 10.666667 0 0 0 10.666667-10.666667v-149.333333a10.666667 10.666667 0 0 0-10.666667-10.666667h-149.333333zM597.333333 202.666667A74.666667 74.666667 0 0 1 672 128h149.333333A74.666667 74.666667 0 0 1 896 202.666667v149.333333a74.666667 74.666667 0 0 1-74.666667 74.666667h-149.333333a74.666667 74.666667 0 0 1-74.666667-74.666667v-149.333333z m74.666667-10.666667a10.666667 10.666667 0 0 0-10.666667 10.666667v149.333333a10.666667 10.666667 0 0 0 10.666667 10.666667h149.333333a10.666667 10.666667 0 0 0 10.666667-10.666667v-149.333333a10.666667 10.666667 0 0 0-10.666667-10.666667h-149.333333zM597.333333 672a74.666667 74.666667 0 0 1 74.666667-74.666667h149.333333a74.666667 74.666667 0 0 1 74.666667 74.666667v149.333333a74.666667 74.666667 0 0 1-74.666667 74.666667h-149.333333a74.666667 74.666667 0 0 1-74.666667-74.666667v-149.333333z m74.666667-10.666667a10.666667 10.666667 0 0 0-10.666667 10.666667v149.333333a10.666667 10.666667 0 0 0 10.666667 10.666667h149.333333a10.666667 10.666667 0 0 0 10.666667-10.666667v-149.333333a10.666667 10.666667 0 0 0-10.666667-10.666667h-149.333333zM128 672A74.666667 74.666667 0 0 1 202.666667 597.333333h149.333333a74.666667 74.666667 0 0 1 74.666667 74.666667v149.333333a74.666667 74.666667 0 0 1-74.666667 74.666667h-149.333333A74.666667 74.666667 0 0 1 128 821.333333v-149.333333z m74.666667-10.666667a10.666667 10.666667 0 0 0-10.666667 10.666667v149.333333a10.666667 10.666667 0 0 0 10.666667 10.666667h149.333333a10.666667 10.666667 0 0 0 10.666667-10.666667v-149.333333a10.666667 10.666667 0 0 0-10.666667-10.666667h-149.333333z">
+                        </path>
+                        <path
+                            d="M512 128a32 32 0 0 1 32 32V512a32 32 0 0 1-32 32H160a32 32 0 0 1 0-64h320v-320A32 32 0 0 1 512 128zM512 597.333333a32 32 0 0 1 32 32v234.666667a32 32 0 0 1-64 0v-234.666667A32 32 0 0 1 512 597.333333zM595.2 512a34.133333 34.133333 0 0 1 34.133333-34.133333h268.8a68.266667 68.266667 0 0 1-68.266666 68.266666h-200.533334a34.133333 34.133333 0 0 1-34.133333-34.133333z">
+                        </path>
+                    </svg>
+                    <p class="nav-btn1-p">Download the App</p>
+                </button>
+                <a class="toji" href="http://" target="_blank" rel="noopener noreferrer">
+                    <button class="nav-btn2">
+                        <svg style="fill: #ffffff;height: 35px;width: 23px;" class="nav-btn2-svg" viewBox="0 0 17 17"
+                            fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.25 1.3C4.2736 1.3 1.05 4.5236 1.05 8.5C1.05 12.4764 4.2736 15.7 8.25 15.7C12.2264 15.7 15.45 12.4764 15.45 8.5C15.45 4.5236 12.2264 1.3 8.25 1.3ZM0.25 8.5C0.25 4.0816 3.8316 0.5 8.25 0.5C12.6684 0.5 16.25 4.0816 16.25 8.5C16.25 12.9184 12.6684 16.5 8.25 16.5C3.8316 16.5 0.25 12.9184 0.25 8.5ZM5.05 10.9V4.5C5.05 4.39391 5.09214 4.29217 5.16716 4.21716C5.24217 4.14214 5.34391 4.1 5.45 4.1H7.85C8.36652 4.10017 8.86295 4.30018 9.23533 4.65813C9.60771 5.01608 9.82717 5.50422 9.84774 6.02034C9.86832 6.53645 9.68842 7.04051 9.34571 7.42697C9.003 7.81343 8.52407 8.05231 8.0092 8.0936L9.85 9.9344L11.5672 8.2172L12.1328 8.7828L10.4156 10.5L12.1328 12.2172L11.5672 12.7828L9.85 11.0656L8.1328 12.7828L7.5672 12.2172L9.2844 10.5L6.8844 8.1H5.85V10.9H5.05ZM5.85 7.3H7.85C8.16826 7.3 8.47348 7.17357 8.69853 6.94853C8.92357 6.72348 9.05 6.41826 9.05 6.1C9.05 5.78174 8.92357 5.47652 8.69853 5.25147C8.47348 5.02643 8.16826 4.9 7.85 4.9H5.85V7.3Z"
+                                fill="var(--text-color-alt)"></path>
+                        </svg>
+                        <p>Instant Order</p>
+                    </button>
+
+                </a>
+                <button class="nav-btn3">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="height: 22px;width: 22px;" viewBox="0 0 448 512">
+                        <path fill="#fff"
+                            d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z" />
+                    </svg>
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="height: 22px;width: 22px;" viewBox="0 0 576 512">
+                            <path fill="#ffffff"
+                                d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                        </svg></a>
+                </button>
+            </div>
+            <div class="uldiv">
+                <ul class="nav-ul">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <li>
+                            <p>Medicine</p>
+                            <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 0.833376C9.14661e-09 0.620254 0.0799755 0.406923 0.239727 0.244216C0.559431 -0.0814056 1.07714 -0.0814056 1.39664 0.244216L9.00001 7.9883L16.6034 0.244217C16.9231 -0.0814047 17.4408 -0.0814047 17.7603 0.244217C18.0798 0.569839 18.08 1.09713 17.7603 1.42254L9.57847 9.75578C9.25876 10.0814 8.74106 10.0814 8.42156 9.75578L0.239727 1.42254C0.0799755 1.25983 -9.14661e-09 1.0465 0 0.833376Z"
+                                    fill="#7d8fab"></path>
+                            </svg>
+                        </li>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <li>
+                            <p>Baby & Mother Care</p>
+                            <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 0.833376C9.14661e-09 0.620254 0.0799755 0.406923 0.239727 0.244216C0.559431 -0.0814056 1.07714 -0.0814056 1.39664 0.244216L9.00001 7.9883L16.6034 0.244217C16.9231 -0.0814047 17.4408 -0.0814047 17.7603 0.244217C18.0798 0.569839 18.08 1.09713 17.7603 1.42254L9.57847 9.75578C9.25876 10.0814 8.74106 10.0814 8.42156 9.75578L0.239727 1.42254C0.0799755 1.25983 -9.14661e-09 1.0465 0 0.833376Z"
+                                    fill="#7d8fab"></path>
+                            </svg>
+                        </li>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+
+                        <li>
+                            <p>Nutritions & Supplements</p>
+                            <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 0.833376C9.14661e-09 0.620254 0.0799755 0.406923 0.239727 0.244216C0.559431 -0.0814056 1.07714 -0.0814056 1.39664 0.244216L9.00001 7.9883L16.6034 0.244217C16.9231 -0.0814047 17.4408 -0.0814047 17.7603 0.244217C18.0798 0.569839 18.08 1.09713 17.7603 1.42254L9.57847 9.75578C9.25876 10.0814 8.74106 10.0814 8.42156 9.75578L0.239727 1.42254C0.0799755 1.25983 -9.14661e-09 1.0465 0 0.833376Z"
+                                    fill="#7d8fab"></path>
+                            </svg>
+                        </li>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+
+                        <li>
+                            <p>Devices & Support</p>
+                            <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 0.833376C9.14661e-09 0.620254 0.0799755 0.406923 0.239727 0.244216C0.559431 -0.0814056 1.07714 -0.0814056 1.39664 0.244216L9.00001 7.9883L16.6034 0.244217C16.9231 -0.0814047 17.4408 -0.0814047 17.7603 0.244217C18.0798 0.569839 18.08 1.09713 17.7603 1.42254L9.57847 9.75578C9.25876 10.0814 8.74106 10.0814 8.42156 9.75578L0.239727 1.42254C0.0799755 1.25983 -9.14661e-09 1.0465 0 0.833376Z"
+                                    fill="#7d8fab"></path>
+                            </svg>
+                        </li>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <li>
+                            <p>Personal Care</p>
+                            <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 0.833376C9.14661e-09 0.620254 0.0799755 0.406923 0.239727 0.244216C0.559431 -0.0814056 1.07714 -0.0814056 1.39664 0.244216L9.00001 7.9883L16.6034 0.244217C16.9231 -0.0814047 17.4408 -0.0814047 17.7603 0.244217C18.0798 0.569839 18.08 1.09713 17.7603 1.42254L9.57847 9.75578C9.25876 10.0814 8.74106 10.0814 8.42156 9.75578L0.239727 1.42254C0.0799755 1.25983 -9.14661e-09 1.0465 0 0.833376Z"
+                                    fill="#7d8fab"></path>
+                            </svg>
+                        </li>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <li>
+                            <p>OTC & Health Need</p>
+                            <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 0.833376C9.14661e-09 0.620254 0.0799755 0.406923 0.239727 0.244216C0.559431 -0.0814056 1.07714 -0.0814056 1.39664 0.244216L9.00001 7.9883L16.6034 0.244217C16.9231 -0.0814047 17.4408 -0.0814047 17.7603 0.244217C18.0798 0.569839 18.08 1.09713 17.7603 1.42254L9.57847 9.75578C9.25876 10.0814 8.74106 10.0814 8.42156 9.75578L0.239727 1.42254C0.0799755 1.25983 -9.14661e-09 1.0465 0 0.833376Z"
+                                    fill="#7d8fab"></path>
+                            </svg>
+                        </li>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+
+                        <li>
+                            <p>Baby & Mother Care</p>
+                            <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 0.833376C9.14661e-09 0.620254 0.0799755 0.406923 0.239727 0.244216C0.559431 -0.0814056 1.07714 -0.0814056 1.39664 0.244216L9.00001 7.9883L16.6034 0.244217C16.9231 -0.0814047 17.4408 -0.0814047 17.7603 0.244217C18.0798 0.569839 18.08 1.09713 17.7603 1.42254L9.57847 9.75578C9.25876 10.0814 8.74106 10.0814 8.42156 9.75578L0.239727 1.42254C0.0799755 1.25983 -9.14661e-09 1.0465 0 0.833376Z"
+                                    fill="#7d8fab"></path>
+                            </svg>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sec1">
+            <div class="sec1-div">
+                <img class="s1-d1-img" src="./Assets/pics/1.png" alt=".">
+                <img class="s1-d1-img" src="./Assets/pics/2.png" alt=".">
+                <img class="s1-d1-img" src="./Assets/pics/3.png" alt=".">
+                <img class="s1-d1-img" src="./Assets/pics/4.png" alt=".">
+                <img class="s1-d1-img" src="./Assets/pics/5.png" alt=".">
+                <img class="s1-d1-img" src="./Assets/pics/6.png" alt=".">
+                <img class="s1-d1-img" src="./Assets/pics/7.png" alt=".">
+                <img class="s1-d1-img" src="./Assets/pics/8.png" alt=".">
+            </div>
+        </section>
+        <section class="s2">
+            <h1 class="s2-h1">Categories</h1>
+            <button class="s2-btn right"><i class="fa-solid fa-angle-right fa-xl"
+                    style="color: #ffffff;padding: 11px 0px 7px 11px;"></i>
+            </button>
+            <button class="s2-btn s2-btn2 left"><i class="fa-solid fa-angle-right fa-rotate-180 fa-xl"
+                    style="color: #ffffff;padding: 8px 12px 6px 0px;"></i></button>
+            <div class="s2-d1">
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/under-499.gif" alt=".">
+                        <span>Under RS.499</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/new-arrival.png" alt=".">
+                        <span>New Arrival</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/medicon1.png" alt=".">
+                        <span>Medicine</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/darma.png" alt=".">
+                        <span>Derma</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/deals.gif" alt=".">
+                        <span>Best Deal</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/bfgrow.png" alt=".">
+                        <span>Baby & Mother Care</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/panadol.png" alt=".">
+                        <span>OTC & Health Need</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/ensure.png" alt=".">
+                        <span>Nutritions & Supplement</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/surbex.png" alt=".">
+                        <span>Multivitamins</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/durex.png" alt=".">
+                        <span>Personal Care</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/accuchek.png" alt=".">
+                        <span>Devices & Support</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/pepsi.png" alt=".">
+                        <span>Food & Deverages</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/organic.gif" alt=".">
+                        <span>Organic Remedy</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/Lab.png" alt=".">
+                        <span>Labs</span>
+                    </div>
+                </div>
+                <div class="s2-d1-d1">
+                    <div class="s2-d1-d1-d1">
+                        <img src="./Assets/Categories/atoz.png" alt=".">
+                        <span>A to Z Medidicine</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Sellling SEction -->
+            <h1>Top Selling Items</h1>
+            <button class="s2-btn d3-btn right"><i class="fa-solid fa-angle-right fa-xl"
+                    style="color: #ffffff;padding: 11px 0px 7px 11px;"></i>
+            </button>
+            <button class="s2-btn mtna left"><i class="fa-solid fa-angle-right fa-rotate-180 fa-xl"
+                    style="color: #ffffff;padding: 8px 12px 6px 0px;"></i></button>
+            <div class="s2-d2">
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/treviamet.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">treviamet-xr tablets 50mg+500mg (1 strip <p> = 7 </p>...</span>
+                        <p class="rs-span isakai">Rs. 313.88<span class="hehe">Rs. 330.41</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/freestyle.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">freestyle optium blood glucose test strips.. <p> (box = 50 ...</p>
+                        </span>
+                        <span class="rs-span">Rs. 2,183.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/ensure234.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">ensure milk powder chocolate 400g</span>
+                        <p class="rs-span isakai">Rs. 2,856.65 <span class="hehe">Rs. 2,945.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/risek.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">risek insta sugar free sachets 20mg (1 box <p> = 10 sachets)</p> </span>
+                        <p class="rs-span isakai">Rs. 22.48<span class="hehe"> Rs. 23.66</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/ensure-powder-vanilla-400g.png"
+                            alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">ensure milk powder vanilla 400g</span>
+                        <p class="rs-span isakai">Rs. 2,856.65<span class="hehe">Rs. 2,945.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/glucerna.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">glucerna milk powder vanilla 400g</span>
+                        <p class="rs-span isakai">Rs. 3,744.20<span class="hehe">Rs. 3,860.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/ensure-powder-vanilla-400g.png"
+                            alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">ensure milk powder vanilla 850g</span>
+                        <p class="rs-span isakai">Rs. 5,669.65<span class="hehe">Rs. 5,845.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/glutaamx.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">glutamax capsules 500mg (1 box = 3 <p> strips) (1 strip = 10</p>
+                            ...</span>
+                        <p class="rs-span isakai">Rs. 4,278.60<span class="hehe">Rs. 4,503.94</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/orange.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Cac-1000 Plus Effervescent Orange <p> Flavor Tablets (1 Bott</p>
+                            ...</span>
+                        <span class="rs-span">Rs. 300.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/orange20.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Cac-1000 Plus Effervescent Orange <p>Flavor Tablets (1 Bott</p>
+                            ...</span>
+                        <span class="rs-span">Rs. 550.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/senior.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Senior Adult Diapers Size Large 10Pcs</span>
+                        <span class="rs-span">Rs. 1,451.43</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/senior.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Senior Adult Diapers Size Xl 10Pcs</span>
+                        <span class="rs-span">Rs. 1,534.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/panadol.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Panadol Tablets 500Mg (1 Strip = 10 Tablets)</span>
+                        <p class="rs-span isakai">Rs. 33.50<span class="hehe">Rs. 35.24</span></p>
+                    </a>
+                </div>
+            </div>
+            <!-- Div 2 Close  -->
+            <h1>Deals</h1>
+            <button class="s2-btn mama right"><i class="fa-solid fa-angle-right fa-xl"
+                    style="color: #ffffff;padding: 11px 0px 7px 11px;"></i>
+            </button>
+            <button class="s2-btn bily left"><i class="fa-solid fa-angle-right fa-rotate-180 fa-xl"
+                    style="color: #ffffff;padding: 8px 12px 6px 0px;"></i></button>
+            <div class="s2-d2">
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Deals/ensure234.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Ensure Milk Powder Vanilla 400G</span>
+                        <p class="rs-span isakai">Rs. 2,856.65<span class="hehe">Rs. 2,945.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Deals/ensure234.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Ensure Milk Powder Vanilla 400G</span>
+                        <p class="rs-span isakai">Rs. 2,856.65<span class="hehe">Rs. 2,945.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Deals/bunyad.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Bunyad 900 Grams</span>
+                        <p class="rs-span isakai">Rs. 1,590.80 <span class="hehe">Rs. 1,640.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Deals/pediasure.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Pediasure Triplesure Chocolate Milk Powder 400G</span>
+                        <p class="rs-span isakai">Rs. 3,050.65<span class="hehe">Rs. 3,145.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/ensure-powder-vanilla-400g.png"
+                            alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">ensure milk powder vanilla 400g</span>
+                        <p class="rs-span isakai">Rs. 2,856.65<span class="hehe">Rs. 2,945.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/glucerna.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">glucerna milk powder vanilla 400g</span>
+                        <p class="rs-span isakai">Rs. 3,744.20<span class="hehe">Rs. 3,860.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/ensure-powder-vanilla-400g.png"
+                            alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">ensure milk powder vanilla 850g</span>
+                        <p class="rs-span isakai">Rs. 5,669.65<span class="hehe">Rs. 5,845.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/glutaamx.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">glutamax capsules 500mg (1 box = 3 strips) (1 strip = 10...</span>
+                        <p class="rs-span isakai">Rs. 4,278.60<span class="hehe">Rs. 4,503.94</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/orange.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Cac-1000 Plus Effervescent Orange Flavor Tablets (1 Bott...</span>
+                        <span class="rs-span">Rs. 300.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/orange20.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Cac-1000 Plus Effervescent Orange Flavor Tablets (1 Bott...</span>
+                        <span class="rs-span">Rs. 550.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/senior.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Senior Adult Diapers Size Large 10Pcs</span>
+                        <span class="rs-span">Rs. 1,451.43</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/senior.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Senior Adult Diapers Size Xl 10Pcs</span>
+                        <span class="rs-span">Rs. 1,534.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/panadol.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Panadol Tablets 500Mg (1 Strip = 10 Tablets)</span>
+                        <p class="rs-span isakai">Rs. 33.50<span class="hehe">Rs. 35.24</span></p>
+                    </a>
+                </div>
+            </div>
+            <!-- D3 CLOSE  -->
+            <h1>Featured Product</h1>
+            <button class="s2-btn honey right"><i class="fa-solid fa-angle-right fa-xl"
+                    style="color: #ffffff;padding: 11px 0px 7px 11px;"></i>
+            </button>
+            <button class="s2-btn singh left"><i class="fa-solid fa-angle-right fa-rotate-180 fa-xl"
+                    style="color: #ffffff;padding: 8px 12px 6px 0px;"></i></button>
+            <div class="s2-d2">
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Deals/ensure234.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Ensure Milk Powder Vanilla 400G</span>
+                        <p class="rs-span isakai">Rs. 2,856.65<span class="hehe">Rs. 2,945.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Deals/ensure234.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Ensure Milk Powder Strawberry 400G</span>
+                        <p class="rs-span isakai">Rs. 2,856.65<span class="hehe">Rs. 2,945.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Deals/bunyad.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Bunyad 900 Grams</span>
+                        <p class="rs-span isakai">Rs. 1,590.80 <span class="hehe">Rs. 1,640.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Deals/pediasure.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Pediasure Triplesure Chocolate Milk Powder 400G</span>
+                        <p class="rs-span isakai">Rs. 3,050.65<span class="hehe">Rs. 3,145.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/ensure-powder-vanilla-400g.png"
+                            alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">ensure milk powder vanilla 400g</span>
+                        <p class="rs-span isakai">Rs. 2,856.65<span class="hehe">Rs. 2,945.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/glucerna.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">glucerna milk powder vanilla 400g</span>
+                        <p class="rs-span isakai">Rs. 3,744.20<span class="hehe">Rs. 3,860.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/ensure-powder-vanilla-400g.png"
+                            alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">ensure milk powder vanilla 850g</span>
+                        <p class="rs-span isakai">Rs. 5,669.65<span class="hehe">Rs. 5,845.00</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/glutaamx.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">glutamax capsules 500mg (1 box = 3 strips) (1 strip = 10...</span>
+                        <p class="rs-span isakai">Rs. 4,278.60<span class="hehe">Rs. 4,503.94</span></p>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/orange.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Cac-1000 Plus Effervescent Orange Flavor Tablets (1 Bott...</span>
+                        <span class="rs-span">Rs. 300.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/orange20.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Cac-1000 Plus Effervescent Orange Flavor Tablets (1 Bott...</span>
+                        <span class="rs-span">Rs. 550.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/senior.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Senior Adult Diapers Size Large 10Pcs</span>
+                        <span class="rs-span">Rs. 1,451.43</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/senior.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Senior Adult Diapers Size Xl 10Pcs</span>
+                        <span class="rs-span">Rs. 1,534.00</span>
+                    </a>
+                </div>
+                <div class="s2-d2-d1">
+                    <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <img class="s2-d2-d1-img" src="./Assets/Top Selling Items/panadol.png" alt=".">
+                        <button>ADD TO CART</button>
+                        <span class="name-span">Panadol Tablets 500Mg (1 Strip = 10 Tablets)</span>
+                        <p class="rs-span isakai">Rs. 33.50<span class="hehe">Rs. 35.24</span></p>
+                    </a>
+                </div>
+            </div>
+            <h1 class="blogs vlogs">Blogs</h1>
+            <button class="soul orewa">VIEW ALL</button>
+            <div class="vegeta">
+                <div class="son goku1">
+                    <img src="./Assets/Blogs/viya.png" alt=".">
+                    <span>viya revolutionizing reproductive health</span>
+                </div>
+                <div class="son goku2">
+                    <img src="./Assets/Blogs/THUJA-Blog-Thumbnail-image.png" alt=".">
+                    <span>thuja: nature's wart treatment</span>
+                </div>
+                <div class="son goku3">
+                    <img src="./Assets/Blogs/how-to-get.png" alt=".">
+                    <span>witch hazel – a blessing for those...</span>
+                </div>
+            </div>
+            <!-- DIv Close Blogs -->
+            <h1 class="nasa-kun">brands</h1>
+            <button class="soul">VIEW ALL</button>
+            <div class="death">
+                <div class="note">
+                    <img src="./Assets/brand/galaxy Pharama.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/mothercare.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/paul-brooks-homoeo-labs.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/reckitt.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/rederm.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/Route2Health.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/galaxy Pharama.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/mothercare.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/paul-brooks-homoeo-labs.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/reckitt.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/rederm.png" alt=".">
+                </div>
+                <div class="note">
+                    <img src="./Assets/brand/Route2Health.png" alt=".">
+                </div>
+            </div>
+            <div class="ayanokogi">
+                <h1>DVAGO - Pakistan’s Best Online Pharmacy & Medical Store</h1>
+                <p>Our primary goal, being Pakistan’s best and trusted pharmacy and healthcare platform, is to proffer
+                    the facility of online <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        buying
+                        medicines</a>, and <a href="http://www.google.com/" target="_blank"
+                        rel="noopener noreferrer">health
+                        products</a> from different parts of the country
+                    without any barriers. Now you don’t need to walk around the supermart or buy medicine by queueing up
+                    to vendors again. You can buy your pharmaceuticals, healthcare, and consumer care items online
+                    through our user-friendly Website or DVAGO App from the comfort of your home with up to 15% discount
+                    and FREE delivery* (on order value above Rs.1350).</p>
+                <p>
+                    DVAGO has an integrated list of all prescriptions along with OTC products of all known brands and
+                    generic medicines which are original and proven to be reliable, health and <a
+                        href="http://www.google.com/" target="_blank" rel="noopener noreferrer">herbal goods</a>,<a
+                        href="http://www.google.com/" target="_blank" rel="noopener noreferrer"> children’s
+                        vitamins</a>,<a href="http://" target="_blank" rel="noopener noreferrer"> diapers</a>,<a
+                        href="http://www.google.com/" target="_blank" rel="noopener noreferrer"> milk powder</a>, and <a
+                        href="http://www.google.com/" target="_blank" rel="noopener noreferrer">nutritional
+                        supplements</a>. Customers today can reach out
+                    to the
+                    shop
+                    through a variety of channels: an extensive product catalog, comparison of prices, and online
+                    shopping,
+                    with just a few clicks. The providers make sure that the products that customers access are real and
+                    are
+                    directly sourced from manufacturers who have already been vetted and recognized, this is to ensure
+                    that
+                    the platform has no counterfeit products.</p>
+                <h1>Buy Medicine Online at DVAGO</h1>
+                <p>At DVAGO you can buy both prescribed & OTC medicines and multivitamins. For prescribed medicine, you
+                    need to upload your medical prescription. <a href="http://www.google.com/" target="_blank"
+                        rel="noopener noreferrer">Click here</a> on how to upload your medical prescription and
+                    place your online medicines order. For <a href="http://www.google.com/" target="_blank"
+                        rel="noopener noreferrer"> OTC medication</a>, you can simply purchase from our online
+                    pharmacy
+                    or retail store without a prescription.
+                </p>
+                <h1>DVAGO will Deliver Your Essentials Every Month!</h1>
+                <p>We know It’s not easy to remember the refill of medicines you need monthly. DVAGO’s monthly refill
+                    service ensures to timely remind you about these refills so you will never out on your medical
+                    essentials & supplies. With our service, you will get monthly reminders and your order will be
+                    delivered
+                    at your convenience!
+                </p>
+                <h1>It is Safe and Secure</h1>
+                <p>
+                    We prioritize customer safety and privacy. DVAGO follows strict protocols to ensure secure
+                    transactions
+                    and protects the confidentiality of user information. The platform also emphasizes adherence to
+                    applicable healthcare regulations and standards. We make sure that controlled medicines are not
+                    dispensed out without any prescription.</p>
+                <h1>Save Money on Medicine with Discounts</h1>
+                <p>Along with our commitment to customer care and convenience, At DVAGO, we also care about your
+                    affordability and financial comfort. This is the reason, we are offering up to 15% off on medicines.
+                    For
+                    your convenience, we offer multiple consumer promotions on non-pharma products, so that you can have
+                    reasons to shop from DVAGO.</p>
+            </div>
+            <div class="Martin">
+                <button> Show more</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="./Assets/svg/white devago.svg" width="268" height="89" viewBox="0 0 268 89">
+                <p>Pakistan's most trusted pharmacy chain delivering nationwide</p>
+                <span>Follow us</span>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube fa-lg" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+
+
+            <div class="footer-section">
+                <h1 class="footer-heading">Categories</h1>
+                <ul>
+                    <li><a href="#">Medicine</a></li>
+                    <li><a href="#">A to Z Medicine</a></li>
+                    <li><a href="#">Baby & Mother Care</a></li>
+                    <li><a href="#">Nutrition & Supplements</a></li>
+                    <li><a href="#">Food & Beverage</a></li>
+                    <li><a href="#">Devices & Appliances</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">OTC And Health Need</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h1 class="footer-heading">Navigate</h1>
+                <ul>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Instant Order</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Stores</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h1 class="footer-heading">Support</h1>
+                <ul>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Terms Of Service</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h1 class="footer-heading">Contact Us</h1>
+                <div class="contact-info">
+                    <p>1st Floor, Plot No. 1 Shaheed-e-Millat Road, Modern Society MCHS, Karachi, Sindh 75100,
+                        Pakistan
+                    </p>
+                    <p>Phone: (021) 11 11 DVAGO (38246)</p>
+                    <p>Email: feedback@dvago.pk</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <div class="minato">
+        <p>© 2024 Dvago – A Brand by Nova Care (Pvt) Ltd. </p>
+    </div>
+    <div class="moye">
+        <a href="#">
+            <button>
+                <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.8598 0.567397C11.2867 0.201266 11.8306 0 12.393 0C12.9554 0 13.4992 0.201266 13.9261 0.567397L21.3871 6.9615L24.3157 9.30482C24.4365 9.40147 24.537 9.52096 24.6116 9.65647C24.6862 9.79198 24.7334 9.94086 24.7504 10.0946C24.7675 10.2483 24.7541 10.4039 24.711 10.5525C24.6679 10.7011 24.596 10.8397 24.4994 10.9605C24.4027 11.0812 24.2832 11.1818 24.1477 11.2564C24.0122 11.331 23.8633 11.3781 23.7096 11.3952C23.5559 11.4123 23.4003 11.3989 23.2517 11.3558C23.1031 11.3127 22.9645 11.2408 22.8437 11.1442L21.8134 10.3199V19.6449C21.8134 20.2695 21.5653 20.8685 21.1236 21.3102C20.6819 21.7519 20.0829 22 19.4583 22H14.7481V16.1122C14.7481 15.4876 14.5 14.8886 14.0583 14.4469C13.6166 14.0053 13.0176 13.7571 12.393 13.7571C11.7684 13.7571 11.1693 14.0053 10.7277 14.4469C10.286 14.8886 10.0379 15.4876 10.0379 16.1122V22H5.32767C4.70306 22 4.10403 21.7519 3.66236 21.3102C3.2207 20.8685 2.97257 20.2695 2.97257 19.6449V10.3187L1.94221 11.143C1.82226 11.2454 1.68295 11.3227 1.53256 11.3702C1.38217 11.4178 1.22375 11.4347 1.06672 11.4198C0.909685 11.405 0.757236 11.3587 0.618418 11.2838C0.4796 11.2089 0.357244 11.1069 0.258613 10.9838C0.159982 10.8607 0.0870855 10.7191 0.0442512 10.5673C0.00141692 10.4155 -0.0104822 10.2566 0.00925995 10.1001C0.0290021 9.94361 0.0799832 9.79268 0.159177 9.65626C0.238371 9.51985 0.344164 9.40074 0.470275 9.306L3.39884 6.96268L10.8598 0.567397Z"
+                        fill="#76bc21"></path>
+                </svg>
+                <span>HOME</span>
+            </button>
+        </a>
+        <a href="#">
+            <button>
+                <svg width="25" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.16">
+                        <path
+                            d="M15.625 7.75C17.489 7.75 19 6.23896 19 4.375C19 2.51104 17.489 1 15.625 1C13.761 1 12.25 2.51104 12.25 4.375C12.25 6.23896 13.761 7.75 15.625 7.75Z"
+                            fill="#bfc9da"></path>
+                        <path
+                            d="M15.625 7.75C17.489 7.75 19 6.23896 19 4.375C19 2.51104 17.489 1 15.625 1C13.761 1 12.25 2.51104 12.25 4.375C12.25 6.23896 13.761 7.75 15.625 7.75Z"
+                            fill="#bfc9da"></path>
+                    </g>
+                    <g opacity="0.16">
+                        <path
+                            d="M4.375 19C6.23896 19 7.75 17.489 7.75 15.625C7.75 13.761 6.23896 12.25 4.375 12.25C2.51104 12.25 1 13.761 1 15.625C1 17.489 2.51104 19 4.375 19Z"
+                            fill="#bfc9da"></path>
+                        <path
+                            d="M4.375 19C6.23896 19 7.75 17.489 7.75 15.625C7.75 13.761 6.23896 12.25 4.375 12.25C2.51104 12.25 1 13.761 1 15.625C1 17.489 2.51104 19 4.375 19Z"
+                            fill="#bfc9da"></path>
+                    </g>
+                    <g opacity="0.16">
+                        <path
+                            d="M12.25 12.25H19V17.875C19 18.1734 18.8815 18.4595 18.6705 18.6705C18.4595 18.8815 18.1734 19 17.875 19H13.375C13.0766 19 12.7905 18.8815 12.5795 18.6705C12.3685 18.4595 12.25 18.1734 12.25 17.875V12.25ZM1 1H7.75V6.625C7.75 6.92337 7.63147 7.20952 7.4205 7.4205C7.20952 7.63147 6.92337 7.75 6.625 7.75H2.125C1.82663 7.75 1.54048 7.63147 1.32951 7.4205C1.11853 7.20952 1 6.92337 1 6.625V1Z"
+                            fill="#bfc9da"></path>
+                        <path
+                            d="M12.25 12.25H19V17.875C19 18.1734 18.8815 18.4595 18.6705 18.6705C18.4595 18.8815 18.1734 19 17.875 19H13.375C13.0766 19 12.7905 18.8815 12.5795 18.6705C12.3685 18.4595 12.25 18.1734 12.25 17.875V12.25ZM1 1H7.75V6.625C7.75 6.92337 7.63147 7.20952 7.4205 7.4205C7.20952 7.63147 6.92337 7.75 6.625 7.75H2.125C1.82663 7.75 1.54048 7.63147 1.32951 7.4205C1.11853 7.20952 1 6.92337 1 6.625V1Z"
+                            fill="#bfc9da"></path>
+                    </g>
+                    <path
+                        d="M15.625 7.75C17.489 7.75 19 6.23896 19 4.375C19 2.51104 17.489 1 15.625 1C13.761 1 12.25 2.51104 12.25 4.375C12.25 6.23896 13.761 7.75 15.625 7.75Z"
+                        fill="#bfc9da"></path>
+                    <path
+                        d="M15.625 7.75C17.489 7.75 19 6.23896 19 4.375C19 2.51104 17.489 1 15.625 1C13.761 1 12.25 2.51104 12.25 4.375C12.25 6.23896 13.761 7.75 15.625 7.75Z"
+                        fill="#bfc9da"></path>
+                    <path
+                        d="M15.625 7.75C17.489 7.75 19 6.23896 19 4.375C19 2.51104 17.489 1 15.625 1C13.761 1 12.25 2.51104 12.25 4.375C12.25 6.23896 13.761 7.75 15.625 7.75Z"
+                        stroke="#bfc9da" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    </path>
+                    <path
+                        d="M4.375 19C6.23896 19 7.75 17.489 7.75 15.625C7.75 13.761 6.23896 12.25 4.375 12.25C2.51104 12.25 1 13.761 1 15.625C1 17.489 2.51104 19 4.375 19Z"
+                        fill="#bfc9da"></path>
+                    <path
+                        d="M4.375 19C6.23896 19 7.75 17.489 7.75 15.625C7.75 13.761 6.23896 12.25 4.375 12.25C2.51104 12.25 1 13.761 1 15.625C1 17.489 2.51104 19 4.375 19Z"
+                        fill="#bfc9da"></path>
+                    <path
+                        d="M4.375 19C6.23896 19 7.75 17.489 7.75 15.625C7.75 13.761 6.23896 12.25 4.375 12.25C2.51104 12.25 1 13.761 1 15.625C1 17.489 2.51104 19 4.375 19Z"
+                        stroke="#bfc9da" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    </path>
+                    <path
+                        d="M12.25 12.25H19V17.875C19 18.1734 18.8815 18.4595 18.6705 18.6705C18.4595 18.8815 18.1734 19 17.875 19H13.375C13.0766 19 12.7905 18.8815 12.5795 18.6705C12.3685 18.4595 12.25 18.1734 12.25 17.875V12.25ZM1 1H7.75V6.625C7.75 6.92337 7.63147 7.20952 7.4205 7.4205C7.20952 7.63147 6.92337 7.75 6.625 7.75H2.125C1.82663 7.75 1.54048 7.63147 1.32951 7.4205C1.11853 7.20952 1 6.92337 1 6.625V1Z"
+                        fill="#bfc9da"></path>
+                    <path
+                        d="M12.25 12.25H19V17.875C19 18.1734 18.8815 18.4595 18.6705 18.6705C18.4595 18.8815 18.1734 19 17.875 19H13.375C13.0766 19 12.7905 18.8815 12.5795 18.6705C12.3685 18.4595 12.25 18.1734 12.25 17.875V12.25ZM1 1H7.75V6.625C7.75 6.92337 7.63147 7.20952 7.4205 7.4205C7.20952 7.63147 6.92337 7.75 6.625 7.75H2.125C1.82663 7.75 1.54048 7.63147 1.32951 7.4205C1.11853 7.20952 1 6.92337 1 6.625V1Z"
+                        fill="#bfc9da"></path>
+                    <path
+                        d="M12.25 12.25H19V17.875C19 18.1734 18.8815 18.4595 18.6705 18.6705C18.4595 18.8815 18.1734 19 17.875 19H13.375C13.0766 19 12.7905 18.8815 12.5795 18.6705C12.3685 18.4595 12.25 18.1734 12.25 17.875V12.25ZM1 1H7.75V6.625C7.75 6.92337 7.63147 7.20952 7.4205 7.4205C7.20952 7.63147 6.92337 7.75 6.625 7.75H2.125C1.82663 7.75 1.54048 7.63147 1.32951 7.4205C1.11853 7.20952 1 6.92337 1 6.625V1Z"
+                        stroke="#bfc9da" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    </path>
+                    <path
+                        d="M13 13H18V17.1667C18 17.3877 17.9122 17.5996 17.7559 17.7559C17.5996 17.9122 17.3877 18 17.1667 18H13.8333C13.6123 18 13.4004 17.9122 13.2441 17.7559C13.0878 17.5996 13 17.3877 13 17.1667V13Z"
+                        fill="white"></path>
+                    <path
+                        d="M13 13H18V17.1667C18 17.3877 17.9122 17.5996 17.7559 17.7559C17.5996 17.9122 17.3877 18 17.1667 18H13.8333C13.6123 18 13.4004 17.9122 13.2441 17.7559C13.0878 17.5996 13 17.3877 13 17.1667V13Z"
+                        fill="white"></path>
+                    <path
+                        d="M2 2H7V6.16667C7 6.38768 6.9122 6.59964 6.75592 6.75592C6.59964 6.9122 6.38768 7 6.16667 7H2.83333C2.61232 7 2.40036 6.9122 2.24408 6.75592C2.0878 6.59964 2 6.38768 2 6.16667V2Z"
+                        fill="white"></path>
+                    <path
+                        d="M2 2H7V6.16667C7 6.38768 6.9122 6.59964 6.75592 6.75592C6.59964 6.9122 6.38768 7 6.16667 7H2.83333C2.61232 7 2.40036 6.9122 2.24408 6.75592C2.0878 6.59964 2 6.38768 2 6.16667V2Z"
+                        fill="white"></path>
+                    <path
+                        d="M15.5 7C16.8807 7 18 5.88071 18 4.5C18 3.11929 16.8807 2 15.5 2C14.1193 2 13 3.11929 13 4.5C13 5.88071 14.1193 7 15.5 7Z"
+                        fill="white"></path>
+                    <path
+                        d="M15.5 7C16.8807 7 18 5.88071 18 4.5C18 3.11929 16.8807 2 15.5 2C14.1193 2 13 3.11929 13 4.5C13 5.88071 14.1193 7 15.5 7Z"
+                        fill="white"></path>
+                    <path
+                        d="M4.5 18C5.88071 18 7 16.8807 7 15.5C7 14.1193 5.88071 13 4.5 13C3.11929 13 2 14.1193 2 15.5C2 16.8807 3.11929 18 4.5 18Z"
+                        fill="white"></path>
+                    <path
+                        d="M4.5 18C5.88071 18 7 16.8807 7 15.5C7 14.1193 5.88071 13 4.5 13C3.11929 13 2 14.1193 2 15.5C2 16.8807 3.11929 18 4.5 18Z"
+                        fill="white"></path>
+                </svg>
+                <span>CATEGORIES</span>
+            </button>
+        </a>
+        <a href="#">
+            <button><svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M22.9454 4.81107C22.7376 4.45104 22.4401 4.15101 22.0818 3.94024C21.7235 3.72948 21.3167 3.61517 20.901 3.60848H5.50787L4.81036 0.890623C4.73989 0.628263 4.58267 0.397493 4.3643 0.235898C4.14592 0.0743036 3.87927 -0.00859463 3.60777 0.000705296H1.20259C0.883644 0.000705296 0.57776 0.127406 0.352231 0.352936C0.126701 0.578466 0 0.884349 0 1.2033C0 1.52224 0.126701 1.82813 0.352231 2.05366C0.57776 2.27919 0.883644 2.40589 1.20259 2.40589H2.6938L6.01296 14.7445C6.08343 15.0068 6.24065 15.2376 6.45902 15.3992C6.6774 15.5608 6.94405 15.6437 7.21555 15.6344H18.0389C18.2609 15.6337 18.4785 15.5716 18.6674 15.4548C18.8563 15.3381 19.0092 15.1713 19.1092 14.973L23.0537 7.08397C23.2246 6.72561 23.3042 6.33051 23.2853 5.93391C23.2665 5.53731 23.1497 5.15156 22.9454 4.81107Z"
+                        fill="white"></path>
+                    <path
+                        d="M6.61443 21.6473C7.61069 21.6473 8.41832 20.8397 8.41832 19.8434C8.41832 18.8472 7.61069 18.0396 6.61443 18.0396C5.61817 18.0396 4.81055 18.8472 4.81055 19.8434C4.81055 20.8397 5.61817 21.6473 6.61443 21.6473Z"
+                        fill="white"></path>
+                    <path
+                        d="M18.6398 21.6473C19.6361 21.6473 20.4437 20.8397 20.4437 19.8434C20.4437 18.8472 19.6361 18.0396 18.6398 18.0396C17.6436 18.0396 16.8359 18.8472 16.8359 19.8434C16.8359 20.8397 17.6436 21.6473 18.6398 21.6473Z"
+                        fill="white"></path>
+                </svg></button>
+        </a>
+        <a href="#">
+            <button><svg width="22" height="27" viewBox="0 0 22 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.15 9.45H19.575L12.15 2.025V9.45ZM2.7 0H13.5L21.6 8.1V24.3C21.6 25.0161 21.3155 25.7028 20.8092 26.2092C20.3028 26.7155 19.6161 27 18.9 27H2.7C1.2015 27 0 25.785 0 24.3V2.7C0 1.2015 1.2015 0 2.7 0ZM14.85 21.6V18.9H2.7V21.6H14.85ZM18.9 16.2V13.5H2.7V16.2H18.9Z"
+                        fill="#bfc9da"></path>
+                </svg>
+                <span>PRESCRIPTION</span></button>
+        </a>
+        <a href="#">
+            <button><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5.79449 5.79449C5.79449 8.98919 8.39429 11.589 11.589 11.589C14.7837 11.589 17.3835 8.98919 17.3835 5.79449C17.3835 2.5998 14.7837 0 11.589 0C8.39429 0 5.79449 2.5998 5.79449 5.79449ZM21.8903 24.4656H23.178V23.178C23.178 18.2089 19.1334 14.1643 14.1643 14.1643H9.01366C4.04327 14.1643 0 18.2089 0 23.178V24.4656H1.28767H2.57533H20.6026H21.8903Z"
+                        fill="#bfc9da"></path>
+                </svg>
+                <span>USRE</span></button>
+        </a>
+    </div>
+</body>
+
+</html>
